@@ -4,14 +4,75 @@
     "E:\\Projects\\DispatchACCintegration\\Dispatch-ACC-Integration\\Dispatch-ACC-Integration\\Dispatch-ACC-Integration.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\DispatchACCintegration\\Dispatch-ACC-Integration\\Dispatch-ACC-Integration\\Dispatch-ACC-Integration.csproj": {
+    "E:\\Projects\\DispatchACCintegration\\Dispatch-ACC-Integration\\BAL\\BAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\DispatchACCintegration\\Dispatch-ACC-Integration\\Dispatch-ACC-Integration\\Dispatch-ACC-Integration.csproj",
-        "projectName": "Dispatch-ACC-Integration",
-        "projectPath": "E:\\Projects\\DispatchACCintegration\\Dispatch-ACC-Integration\\Dispatch-ACC-Integration\\Dispatch-ACC-Integration.csproj",
+        "projectUniqueName": "E:\\Projects\\DispatchACCintegration\\Dispatch-ACC-Integration\\BAL\\BAL.csproj",
+        "projectName": "BAL",
+        "projectPath": "E:\\Projects\\DispatchACCintegration\\Dispatch-ACC-Integration\\BAL\\BAL.csproj",
         "packagesPath": "C:\\Users\\Samanjot\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\DispatchACCintegration\\Dispatch-ACC-Integration\\Dispatch-ACC-Integration\\obj\\",
+        "outputPath": "E:\\Projects\\DispatchACCintegration\\Dispatch-ACC-Integration\\BAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Samanjot\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Projects\\DispatchACCintegration\\Dispatch-ACC-Integration\\DAL\\DAL.csproj": {
+                "projectPath": "E:\\Projects\\DispatchACCintegration\\Dispatch-ACC-Integration\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projects\\DispatchACCintegration\\Dispatch-ACC-Integration\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\DispatchACCintegration\\Dispatch-ACC-Integration\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "E:\\Projects\\DispatchACCintegration\\Dispatch-ACC-Integration\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\Samanjot\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\DispatchACCintegration\\Dispatch-ACC-Integration\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,6 +104,87 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projects\\DispatchACCintegration\\Dispatch-ACC-Integration\\Dispatch-ACC-Integration\\Dispatch-ACC-Integration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\DispatchACCintegration\\Dispatch-ACC-Integration\\Dispatch-ACC-Integration\\Dispatch-ACC-Integration.csproj",
+        "projectName": "Dispatch-ACC-Integration",
+        "projectPath": "E:\\Projects\\DispatchACCintegration\\Dispatch-ACC-Integration\\Dispatch-ACC-Integration\\Dispatch-ACC-Integration.csproj",
+        "packagesPath": "C:\\Users\\Samanjot\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\DispatchACCintegration\\Dispatch-ACC-Integration\\Dispatch-ACC-Integration\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Samanjot\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Projects\\DispatchACCintegration\\Dispatch-ACC-Integration\\BAL\\BAL.csproj": {
+                "projectPath": "E:\\Projects\\DispatchACCintegration\\Dispatch-ACC-Integration\\BAL\\BAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
             "Dapper": {
               "target": "Package",
               "version": "[2.1.15, )"
@@ -60,6 +202,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.12, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.1, )"
             },
             "RabbitMQ.Client": {
               "target": "Package",

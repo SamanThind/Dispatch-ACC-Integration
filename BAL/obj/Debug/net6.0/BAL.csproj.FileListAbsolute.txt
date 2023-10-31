@@ -1,0 +1,16 @@
+E:\Projects\DispatchACCintegration\Dispatch-ACC-Integration\BAL\bin\Debug\net6.0\BAL.deps.json
+E:\Projects\DispatchACCintegration\Dispatch-ACC-Integration\BAL\bin\Debug\net6.0\BAL.dll
+E:\Projects\DispatchACCintegration\Dispatch-ACC-Integration\BAL\bin\Debug\net6.0\BAL.pdb
+E:\Projects\DispatchACCintegration\Dispatch-ACC-Integration\BAL\bin\Debug\net6.0\DAL.dll
+E:\Projects\DispatchACCintegration\Dispatch-ACC-Integration\BAL\bin\Debug\net6.0\LogisticsLib.dll
+E:\Projects\DispatchACCintegration\Dispatch-ACC-Integration\BAL\bin\Debug\net6.0\DAL.pdb
+E:\Projects\DispatchACCintegration\Dispatch-ACC-Integration\BAL\obj\Debug\net6.0\BAL.csproj.AssemblyReference.cache
+E:\Projects\DispatchACCintegration\Dispatch-ACC-Integration\BAL\obj\Debug\net6.0\BAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\DispatchACCintegration\Dispatch-ACC-Integration\BAL\obj\Debug\net6.0\BAL.AssemblyInfoInputs.cache
+E:\Projects\DispatchACCintegration\Dispatch-ACC-Integration\BAL\obj\Debug\net6.0\BAL.AssemblyInfo.cs
+E:\Projects\DispatchACCintegration\Dispatch-ACC-Integration\BAL\obj\Debug\net6.0\BAL.csproj.CoreCompileInputs.cache
+E:\Projects\DispatchACCintegration\Dispatch-ACC-Integration\BAL\obj\Debug\net6.0\BAL.csproj.CopyComplete
+E:\Projects\DispatchACCintegration\Dispatch-ACC-Integration\BAL\obj\Debug\net6.0\BAL.dll
+E:\Projects\DispatchACCintegration\Dispatch-ACC-Integration\BAL\obj\Debug\net6.0\refint\BAL.dll
+E:\Projects\DispatchACCintegration\Dispatch-ACC-Integration\BAL\obj\Debug\net6.0\BAL.pdb
+E:\Projects\DispatchACCintegration\Dispatch-ACC-Integration\BAL\obj\Debug\net6.0\ref\BAL.dll
