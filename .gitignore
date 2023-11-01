@@ -1,0 +1,7 @@
+
+*.v2
+*.v1
+BAL/bin/debug/*.*
+BAL/bin/obj/*.*
+DAL/bin/debug/*.*
+DAL/bin/obj/*.*
