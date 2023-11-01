@@ -18,5 +18,7 @@ namespace DAL
         }
 
         public DbSet<WorkOrder> WorkOrder { get; set; }
+        public DbSet<Driver> Drivers { get; set; }
+        public DbSet<Truck_Trailer> Truck_Trailer { get; set; }
     }
 }

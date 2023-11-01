@@ -8,17 +8,7 @@ namespace DAL.Entity
 {
     public class WorkOrder
     {
-        public long WorkOrderId
-        {
-            get;
-            set;
-        }
-
-        public string WorkOrderNo
-        {
-            get;
-            set;
-        }
-
+        public long WorkOrderId { get; set; }
+        public string WorkOrderNo { get; set; } = "";
     }
 }

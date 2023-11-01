@@ -1,7 +1,8 @@
 
 *.v2
 *.v1
-BAL/bin/debug/*.*
+BAL/bin/Debug/*.*
 BAL/bin/obj/*.*
-DAL/bin/debug/*.*
+DAL/bin/Debug/*.*
 DAL/bin/obj/*.*
+BAL/bin/Debug/net6.0/DAL.dll

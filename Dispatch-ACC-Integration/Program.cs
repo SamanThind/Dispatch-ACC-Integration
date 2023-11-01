@@ -17,7 +17,7 @@ IHost host = Host.CreateDefaultBuilder(args)
     .ConfigureServices(services =>
     {;
         services.AddDbContext<DispatchDBContext>(options => options.UseSqlServer(config.GetConnectionString("Dispatch")));
-        services.AddTransient<IUser, UserService>();
+        services.AddTransient<IEquipments, EquipmentService>();
         services.AddHostedService<StartUp>();
     })
     .Build();

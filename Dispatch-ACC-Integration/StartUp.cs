@@ -11,16 +11,16 @@ namespace Dispatch_ACC_Integration
 {
     public class StartUp : BackgroundService
     {
-        private IUser userService = null;
-        public StartUp(IUser user)
+        private IEquipments userService = null;
+        public StartUp(IEquipments user)
         {
             userService = user;
         }
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            userService.GetById().ForEach(m =>
+            userService.GetDriversByCompanyId(0).ForEach(m =>
             {
-                Console.WriteLine(m.WorkOrderId);
+                Console.WriteLine(m.carrierId);
             });
 
             await Task.CompletedTask;
